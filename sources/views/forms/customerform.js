@@ -36,8 +36,7 @@ export default class CustomersForm extends JetView{
 				}
 			],
 			rules:{
-				name:webix.rules.isNotEmpty,
-				email:webix.rules.isEmail
+				name:webix.rules.isNotEmpty
 			}
 		};
 	}
