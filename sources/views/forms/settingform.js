@@ -26,7 +26,7 @@ export default class SettingsForm extends JetView{
 								const form = this.getRoot();
 								if (form.validate()) {
 									//save values
-									this.saveCustomer(form.getValues());
+									this.saveSetting(form.getValues());
 									this.getBack();
 								}
 							}
