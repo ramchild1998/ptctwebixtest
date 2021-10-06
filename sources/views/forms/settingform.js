@@ -34,11 +34,7 @@ export default class SettingsForm extends JetView{
 						{}
 					]
 				}
-			],
-			rules:{
-				name:webix.rules.isNotEmpty,
-				email:webix.rules.isEmail
-			}
+			]
 		};
 	}
 	urlChange(form){
