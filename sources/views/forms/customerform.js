@@ -8,7 +8,7 @@ export default class CustomersForm extends JetView{
 			elementsConfig:{ labelWidth:100 },
 			elements:[
 				{ type:"header", height:45, template:"Kostumer"},
-				{ view:"text", name:"id_customer", label:"id_kostumer"},
+				{ view:"text", name:"id_customer", label:"ID kostumer"},
 				{ view:"text", name:"name", label:"Nama" },
 				{ view:"text", name:"phone", label:"Telp" },
 				{ view:"text", name:"address", label:"Alamat" },
